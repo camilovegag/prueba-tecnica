@@ -1,8 +1,13 @@
 import React from "react";
 import "./App.css";
+import Background from "./components/Background";
 
 const App = () => {
-  return <h1>Hola mundo!</h1>;
+  return (
+    <div>
+      <Background />
+    </div>
+  );
 };
 
 export default App;
