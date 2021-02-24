@@ -36,7 +36,7 @@ const RoundedCard = () => {
             size={48}
           />
         </div>
-        <Button type="primary" shape="round" style={{ height: "56px", width: "100%" }}>
+        <Button className={styles["button"]} type="primary" shape="round" style={{ backgroundColor: "#115FFB", height: "56px", width: "100%" }}>
           + Add New Companion
         </Button>
       </div>
