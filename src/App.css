@@ -9,8 +9,9 @@
 }
 
 .icon {
-  font-size: 1.5rem;
   color: #fff;
+  font-size: 1.5rem;
+  margin: 64px 24px;
   position: absolute;
   z-index: 5;
 }

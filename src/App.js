@@ -1,13 +1,15 @@
 import React from "react";
 import "./App.css";
+import { ArrowLeftOutlined } from "@ant-design/icons";
+import TextInfo from "./components/TextInfo";
 import Background from "./components/Background";
 import RoundedCard from "./components/RoundedCard";
-import { ArrowLeftOutlined } from "@ant-design/icons";
 
 const App = () => {
   return (
     <div>
       <ArrowLeftOutlined className="icon" />
+      <TextInfo />
       <RoundedCard />
       <Background />
     </div>
