@@ -6,6 +6,10 @@ import Background from "./components/Background";
 import RoundedCard from "./components/RoundedCard";
 
 const App = () => {
+  window.addEventListener("resize", () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  });
   return (
     <div>
       <ArrowLeftOutlined className="icon" />

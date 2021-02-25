@@ -5,7 +5,7 @@ const Background = () => {
   return (
     <div>
       <div className={styles["some-style"]} />
-      <div className={styles["filter"]}></div>
+      <div className={styles["filter"]} />
     </div>
   );
 };

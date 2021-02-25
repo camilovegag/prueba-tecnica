@@ -1,11 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Open+Sans:wght@300;400;800&display=swap");
 @import "~antd/dist/antd.css";
+
 * {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   font-weight: 400;
   margin: 0;
   padding: 0;
+}
+.body {
+  height: 100vh; /* Fallback for browsers that do not support Custom Properties */
+  height: calc(var(--vh, 1vh) * 100);
 }
 
 .icon {
@@ -14,10 +19,4 @@
   margin: 64px 24px;
   position: absolute;
   z-index: 5;
-}
-
-@media (min-width: 768px) {
-  * {
-    font-size: 1.25rem;
-  }
 }
