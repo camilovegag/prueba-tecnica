@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import "./App.css";
+import { ArrowLeftOutlined } from "@ant-design/icons";
+import TextInfo from "./components/TextInfo";
+import Background from "./components/Background";
+import RoundedCard from "./components/RoundedCard";
 
-function App() {
+const App = () => {
+  window.addEventListener("resize", () => {
+    let vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty("--vh", `${vh}px`);
+  });
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <ArrowLeftOutlined className="icon" />
+      <TextInfo />
+      <RoundedCard />
+      <Background />
     </div>
   );
-}
+};
 
 export default App;
