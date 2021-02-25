@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/prueba-tecnica/static/css/main.195c13f6.chunk.css",
+    "main.js": "/prueba-tecnica/static/js/main.c8c99528.chunk.js",
+    "main.js.map": "/prueba-tecnica/static/js/main.c8c99528.chunk.js.map",
+    "runtime-main.js": "/prueba-tecnica/static/js/runtime-main.89b35f08.js",
+    "runtime-main.js.map": "/prueba-tecnica/static/js/runtime-main.89b35f08.js.map",
+    "static/css/2.1e58ee36.chunk.css": "/prueba-tecnica/static/css/2.1e58ee36.chunk.css",
+    "static/js/2.72d1c5d2.chunk.js": "/prueba-tecnica/static/js/2.72d1c5d2.chunk.js",
+    "static/js/2.72d1c5d2.chunk.js.map": "/prueba-tecnica/static/js/2.72d1c5d2.chunk.js.map",
+    "index.html": "/prueba-tecnica/index.html",
+    "static/css/2.1e58ee36.chunk.css.map": "/prueba-tecnica/static/css/2.1e58ee36.chunk.css.map",
+    "static/css/main.195c13f6.chunk.css.map": "/prueba-tecnica/static/css/main.195c13f6.chunk.css.map",
+    "static/js/2.72d1c5d2.chunk.js.LICENSE.txt": "/prueba-tecnica/static/js/2.72d1c5d2.chunk.js.LICENSE.txt",
+    "static/media/index.module.css": "/prueba-tecnica/static/media/Glacier.60669ae5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.89b35f08.js",
+    "static/css/2.1e58ee36.chunk.css",
+    "static/js/2.72d1c5d2.chunk.js",
+    "static/css/main.195c13f6.chunk.css",
+    "static/js/main.c8c99528.chunk.js"
+  ]
+}
